@@ -30,7 +30,7 @@ describe 'タスク管理機能', type: :system do
       end
 
       it 'ユーザーBが作成したタスクが表示される' do
-        expect(page).to have_no_content('最初のタスク')
+        expect(page).to have_no_content '最初のタスク'
       end
     end
   end
